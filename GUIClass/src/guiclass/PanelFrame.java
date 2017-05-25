@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package guiclass;
+import java.awt.GridLayout;
+import java.awt.BorderLayout;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JButton;
+/**
+ *
+ * @author jaknd
+ */
+public class PanelFrame extends JFrame {
+    private final JPanel buttonJPanel;
+    private final JButton[] buttons;
+    
+    public PanelFrame()
+    {
+        super("Panel Demo");
+        buttons = new JButton[5];
+        buttonJPanel = new JPanel();
+        buttonJPanel.setLayout(new GridLayout(1, buttons.length));
+        
+        for (int count = 0; count < buttons.length; count++)
+        {
+            buttons[count] = new JButton("Button " + (count + 1));
+            buttonJPanel.add(buttons[count]);
+        }
+        
+        add(buttonJPanel, BorderLayout.SOUTH);
+    }
+    
+}
