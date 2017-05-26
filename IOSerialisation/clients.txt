@@ -1,0 +1,5 @@
+100 Bob Blue 55.34
+200 Gary Green 0.00
+300 Mary Magenta 667.00
+400 Pam Purple -30.00
+500 Rory Red -45.26
