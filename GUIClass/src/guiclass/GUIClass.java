@@ -17,33 +17,33 @@ public class GUIClass {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        IOBox();
-        LabelFrame();
-        TextFieldFrame();
-        ButtonFrame();
-        CheckBoxFrame();
-        RadioButtonFrame();
-        ComboBoxFrame();
-        ListFrame();
-        MultipleSelectionFrame();
-        MouseTrackerFrame();
-        MouseDetailsFrame();
-        Paint();
-        KeyDemoFrame();
-        FlowLayoutFrame();
-        BorderLayoutFrame();
-        GridLayoutFrame();
-        PanelFrame();
-        TextAreaFrame();
+        Fig12_2();
+        Fig12_6();
+        Fig12_9();
+        Fig12_15();
+        Fig12_17();
+        Fig12_19();
+        Fig12_21();
+        Fig12_23();
+        Fig12_25();
+        Fig12_28();
+        Fig12_31();
+        Fig12_34();
+        Fig12_36();
+        Fig12_39();
+        Fig12_41();
+        Fig12_43();
+        Fig12_45();
+        Fig12_47();
     }
     
-    public static void IOBox()
+    public static void Fig12_2()
     {
         IOBox box = new IOBox();
         box.BoxExample();
     }
     
-    public static void LabelFrame()
+    public static void Fig12_6()
     {
         LabelFrame labelFrame = new LabelFrame();
         labelFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -51,7 +51,7 @@ public class GUIClass {
         labelFrame.setVisible(true);
     }
     
-    public static void TextFieldFrame()
+    public static void Fig12_9()
     {
         TextFieldFrame texFrame = new TextFieldFrame();
         texFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -59,7 +59,7 @@ public class GUIClass {
         texFrame.setVisible(true);
     }
     
-    public static void ButtonFrame()
+    public static void Fig12_15()
     {
         ButtonFrame buttFrame = new ButtonFrame();
         buttFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -67,7 +67,7 @@ public class GUIClass {
         buttFrame.setVisible(true);
     }
     
-    public static void CheckBoxFrame()
+    public static void Fig12_17()
     {
         CheckBoxFrame cBFrame = new CheckBoxFrame();
         cBFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -75,7 +75,7 @@ public class GUIClass {
         cBFrame.setVisible(true);
     }
     
-    public static void RadioButtonFrame()
+    public static void Fig12_19()
     {
         RadioButtonFrame rBFrame = new RadioButtonFrame();
         rBFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -83,7 +83,7 @@ public class GUIClass {
         rBFrame.setVisible(true);
     }
     
-    public static void ComboBoxFrame()
+    public static void Fig12_21()
     {
         ComboBoxFrame coBFrame = new ComboBoxFrame();
         coBFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -91,7 +91,7 @@ public class GUIClass {
         coBFrame.setVisible(true);
     }
     
-    public static void ListFrame()
+    public static void Fig12_23()
     {
         ListFrame lFrame = new ListFrame();
         lFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -99,7 +99,7 @@ public class GUIClass {
         lFrame.setVisible(true);
     }
     
-    public static void MultipleSelectionFrame()
+    public static void Fig12_25()
     {
         MultipleSelectionFrame mSFrame = new MultipleSelectionFrame();
         mSFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -107,7 +107,7 @@ public class GUIClass {
         mSFrame.setVisible(true);
     }
     
-    public static void MouseTrackerFrame()
+    public static void Fig12_28()
     {
         MouseTrackerFrame mTFrame = new MouseTrackerFrame();
         mTFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -115,7 +115,7 @@ public class GUIClass {
         mTFrame.setVisible(true);
     }
     
-    public static void MouseDetailsFrame()
+    public static void Fig12_31()
     {
         MouseDetailsFrame mDFrame = new MouseDetailsFrame();
         mDFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -123,7 +123,7 @@ public class GUIClass {
         mDFrame.setVisible(true);
     }
     
-    public static void Paint()
+    public static void Fig12_34()
     {
         JFrame application = new JFrame("A simple paint program");
         PaintPanel pPanel = new PaintPanel();
@@ -134,7 +134,7 @@ public class GUIClass {
         application.setVisible(true);
     }
     
-    public static void KeyDemoFrame()
+    public static void Fig12_36()
     {
         KeyDemoFrame kDFrame = new KeyDemoFrame();
         kDFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -142,7 +142,7 @@ public class GUIClass {
         kDFrame.setVisible(true);
     }
     
-    public static void FlowLayoutFrame()
+    public static void Fig12_39()
     {
         FlowLayoutFrame fLFrame = new FlowLayoutFrame();
         fLFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -150,7 +150,7 @@ public class GUIClass {
         fLFrame.setVisible(true);
     }
     
-    public static void BorderLayoutFrame()
+    public static void Fig12_41()
     {
         BorderLayoutFrame bLFrame = new BorderLayoutFrame();
         bLFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -158,7 +158,7 @@ public class GUIClass {
         bLFrame.setVisible(true);
     }
     
-    public static void GridLayoutFrame()
+    public static void Fig12_43()
     {
         GridLayoutFrame gLFrame = new GridLayoutFrame();
         gLFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -166,7 +166,7 @@ public class GUIClass {
         gLFrame.setVisible(true);
     }
     
-    public static void PanelFrame()
+    public static void Fig12_45()
     {
         PanelFrame pFrame = new PanelFrame();
         pFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -174,7 +174,7 @@ public class GUIClass {
         pFrame.setVisible(true);
     }
     
-    public static void TextAreaFrame()
+    public static void Fig12_47()
     {
         TextAreaFrame tAFrame = new TextAreaFrame();
         tAFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
