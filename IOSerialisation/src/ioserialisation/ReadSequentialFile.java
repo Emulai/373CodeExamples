@@ -57,7 +57,7 @@ public class ReadSequentialFile {
         }
         catch (ClassNotFoundException classNotFoundException)
         {
-            System.err.println("Invalid object type. Terminating...");
+            System.err.println(classNotFoundException);
         }
         catch (IOException ioException)
         {

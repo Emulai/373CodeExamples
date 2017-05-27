@@ -17,24 +17,25 @@ public class GUIClass {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Fig12_2();
-        Fig12_6();
-        Fig12_9();
-        Fig12_15();
-        Fig12_17();
-        Fig12_19();
-        Fig12_21();
-        Fig12_23();
-        Fig12_25();
-        Fig12_28();
-        Fig12_31();
-        Fig12_34();
-        Fig12_36();
-        Fig12_39();
-        Fig12_41();
-        Fig12_43();
-        Fig12_45();
-        Fig12_47();
+        //Fig12_2();
+        //Fig12_6();
+        //Fig12_9();
+        //Fig12_15();
+        //Fig12_17();
+        //Fig12_19();
+        //Fig12_21();
+        //Fig12_23();
+        //Fig12_25();
+        //Fig12_28();
+        //Fig12_31();
+        //Fig12_34();
+        //Fig12_36();
+        //Fig12_39();
+        //Fig12_41();
+        //Fig12_43();
+        //Fig12_45();
+        //Fig12_47();
+        Fig22_5();
     }
     
     public static void Fig12_2()
@@ -180,6 +181,14 @@ public class GUIClass {
         tAFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         tAFrame.setSize(425, 200);
         tAFrame.setVisible(true);
+    }
+    
+    public static void Fig22_5()
+    {
+        MenuFrame menuFrame = new MenuFrame();
+        menuFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        menuFrame.setSize(500, 200);
+        menuFrame.setVisible(true);
     }
     
 }
